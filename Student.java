@@ -16,12 +16,11 @@ public class Student extends Person {
     private int status;
     
     public Student(String name, String address, String phoneNumber, String email, int status) {
-        super(name, address, phoneNumber, email);  // Pastikan parameter sesuai dengan parent
+        super(name, address, phoneNumber, email); 
         this.status = status;
     }
-    
     @Override
     public String toString() {
-        return "Student: " + super.name;  // Akses name dari parent class
+        return "Student: " + super.name; 
     }
 }
